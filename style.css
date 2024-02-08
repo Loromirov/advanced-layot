@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+summary {
+  display: block;
+}
+summary summary::-webkit-details-marker {
+  display: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header {
+  padding-top: 18px;
+  padding-bottom: 19px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+.header_logo_link:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.header_logo_search:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.header_burger:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.header_profile:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.header_cart:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.bread_crumbs {
+  padding-top: 59px;
+  padding-bottom: 60px;
+  background: rgb(248, 243, 244);
+  display: flex;
+  justify-content: space-between;
+}
+.bread_crumbs_heading {
+  color: rgb(241, 109, 127);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.registration {
+  display: flex;
+  flex-direction: row;
+  gap: 128px;
+  padding-top: 64px;
+  padding-bottom: 113px;
+}
+.registration_name {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration_name input {
+  padding: 13px 17px 16px;
+  border: 1px solid rgb(164, 164, 164);
+}
+.registration_name input::-moz-placeholder {
+  color: rgb(111, 110, 110);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.registration_name input::placeholder {
+  color: rgb(111, 110, 110);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.registration_name input:hover {
+  border: 1px solid rgb(241, 109, 127);
+}
+.registration_heading {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+.registration_gender {
+  padding-top: 31px;
+  padding-bottom: 33px;
+  display: flex;
+  gap: 20px;
+}
+.registration_gender label {
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.registration_gender label:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.registration_login {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration_login input {
+  padding: 13px 17px 16px;
+  border: 1px solid rgb(164, 164, 164);
+}
+.registration_login input::-moz-placeholder {
+  color: rgb(111, 110, 110);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.registration_login input::placeholder {
+  color: rgb(111, 110, 110);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.registration_login input:hover {
+  border: 1px solid rgb(241, 109, 127);
+}
+.registration_pass_discription {
+  color: rgb(111, 110, 110);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.registration_button {
+  margin-top: 55px;
+  padding: 16px 29px;
+  background-color: rgb(241, 109, 127);
+  border: 1px solid rgb(241, 109, 127);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  transition: 0.3s;
+  display: flex;
+  gap: 20px;
+}
+.registration_button:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(164, 164, 164);
+  color: rgb(241, 109, 127);
+  transition: 0.3s;
+}
+.registration_button:hover path {
+  fill: rgb(241, 109, 127);
+  transition: 0.3s;
+}
+.registration_discription_heading {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  padding-bottom: 22px;
+}
+.registration_discription_text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  padding-bottom: 21px;
+}
+.registration_discription_advantages {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.registration_discription_advantage {
+  display: flex;
+  gap: 23px;
+}
+
+.about_the_seller_background {
+  background: url(img/background_subscribe.png);
+  background-repeat: no-repeat;
+  padding-top: 97px;
+  padding-bottom: 126px;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about_the_seller_info {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_the_seller_img {
+  padding-bottom: 30px;
+}
+.about_the_seller_description {
+  text-align: center;
+}
+.about_the_seller_subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_the_seller_subscribe_heading {
+  color: rgb(34, 34, 36);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.about_the_seller_subscribe_text {
+  color: rgb(34, 34, 36);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 38px;
+}
+.about_the_seller_subscribe_text-field__group {
+  display: flex;
+}
+.about_the_seller_subscribe_text-field_email {
+  background-color: #E1E1E1;
+  color: #222224;
+  border: 1px #E1E1E1;
+  width: 256px;
+  height: 49px;
+  border-top-left-radius: 50cap;
+  border-bottom-left-radius: 50cap;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.about_the_seller_subscribe_butt {
+  background-color: rgb(241, 109, 127);
+  border: 1px rgb(241, 109, 127);
+  width: 100px;
+  height: 49px;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-top-right-radius: 50cap;
+  border-bottom-right-radius: 50cap;
+  transition: 0.3s;
+}
+.about_the_seller_subscribe_butt:hover {
+  color: rgb(241, 109, 127);
+  background-color: #FFF;
+  transition: 0.3s;
+}
+
+.footer {
+  padding-top: 24px;
+  padding-bottom: 23px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_support_date {
+  color: #FBFBFB;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_social_network {
+  display: flex;
+  gap: 7px;
+}
+.footer_social_nettwork_link:hover path {
+  fill: rgb(241, 109, 127);
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
